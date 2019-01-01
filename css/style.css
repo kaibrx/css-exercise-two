@@ -1,6 +1,14 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 2em;
+  font-weight: 200
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -44,6 +52,32 @@ li {
 
 article {
   padding-top: 100px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+figcaption {
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 220;
+  line-height: 1.5em;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .container {
